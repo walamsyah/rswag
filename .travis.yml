@@ -1,7 +1,7 @@
 language: ruby
 
 rvm:
-  - 2.2.5
+  - 2.6.3
 
 env:
   - RAILS_VERSION=5.2.0
@@ -10,7 +10,7 @@ env:
 
 cache:
   directories:
-    - /home/travis/.rvm/gems/ruby-2.2.5
+    - /home/travis/.rvm/gems/ruby-2.6.3
 
 install: ./ci/build.sh
 
